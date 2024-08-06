@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <title>CreativeCode Studio</title>
+</head>
+<body>
+    <div class="particles"></div> <!-- Elemento para a animação de partículas -->
+    
+    <div class="homeSection active">
+        <div class="navBar">
+            <div class="logo">
+                <h1>CreativeCode Studio</h1>
+            </div>
+            <ul class="navList">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <div class="info">
+                <h1>Bem-vindo ao <span class="highlight">CreativeCode Studio</span></h1>
+                <h2 id="typed-text"></h2> <!-- Texto de efeito de digitação -->
+                <p>Transformando suas ideias em realidade digital com design inovador e funcional.</p>
+                <div class="socialMedia">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="image1.png" alt="Banner">
+            </div>
+        </div>
+    </div>
+
+    <div class="aboutSection" id="about">
+        <div class="container">
+            <div class="aboutImage">
+                <img src="aboutImage.png" alt="About Image">
+            </div>
+            <div class="aboutContent">
+                <h2>Sobre Mim</h2>
+                <p>Sou um web designer apaixonado por criar interfaces bonitas e funcionais. Com anos de experiência, transformo ideias em realidade através do design e da tecnologia.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="servicesSection" id="services">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="serviceItem">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Desenvolvimento Web</h3>
+                <p>Criação de sites personalizados e responsivos.</p>
+            </div>
+            <div class="serviceItem">
+                <i class="fas fa-palette"></i>
+                <h3>Design Gráfico</h3>
+                <p>Design gráfico profissional para web e impressão.</p>
+            </div>
+            <div class="serviceItem">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Design Mobile</h3>
+                <p>Design de interfaces para aplicativos móveis.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolioSection" id="portfolio">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <div class="portfolioGrid">
+                <div class="portfolioItem">
+                    <img src="portfolio1.png" alt="Portfolio Item">
+                    <h3>Projeto de Website</h3>
+                    <p>Criação de um site moderno e responsivo.</p>
+                </div>
+                <div class="portfolioItem">
+                    <img src="portfolio2.png" alt="Portfolio Item">
+                    <h3>Design de Aplicativo</h3>
+                    <p>Design de interface para um aplicativo móvel.</p>
+                </div>
+                <div class="portfolioItem">
+                    <img src="portfolio3.png" alt="Portfolio Item">
+                    <h3>Identidade Visual</h3>
+                    <p>Criação de logotipo e identidade visual para uma marca.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contactSection" id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form>
+                <div class="formGroup">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="formGroup">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="formGroup">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="formGroup">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footerLogo">
+            <h1>CreativeCode Studio</h1>
+        </div>
+        <div class="socialMedia">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <!-- Link to JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
